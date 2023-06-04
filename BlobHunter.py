@@ -13,7 +13,7 @@ import os
 
 ENDPOINT_URL = '{}.blob.core.windows.net'
 CONTAINER_URL = '{}.blob.core.windows.net/{}/'
-EXTENSIONS = ["txt", "csv", "pdf", "docx", "xlsx"]
+EXTENSIONS = ["txt", "csv", "pdf", "docx", "xlsx", "doc", "pfx", "key", "pptx", "log", "cfg", "conf", "jpg", "png", "p7b", "kdbx", "zip", "7z"]
 STOP_SCAN_FLAG = "stop scan"
 
 def get_credentials():
